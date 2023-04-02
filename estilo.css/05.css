@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: rgb(87,0,185);
+    background: linear-gradient(90deg, rgba(87,0,185,1) 0%, rgba(187,41,41,1) 50%, rgba(55,120,255,1) 100%);
+}
+div{
+    width: 200px;
+    padding: 200px;
+    background: rgb(84, 31, 168);
+    padding: 250 100px 50px 100px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid  rgb(0, 0, 0);
+    text-align: center;
+}
+#caja1{
+    margin: 10px 10px 20px 20px;
+    background: rgb(255, 255, 255);
+    border: 100px groove rgb(0, 0, 0);
+}
+#caja2{
+    margin: 10px 100px 20px 20px;
+    box-shadow: 0px 0px 110px 5px rgb(187,41,41,1);
+    border-radius: 300px 90px 1px;
+}
+#caja3{
+    margin: 10px 100px 20px 20px;
+    box-shadow: 0px 0px 110px 5px rgb(187, 177, 41);
+    border-radius: 50px 90px 100px;
+}
+#caja4{
+    margin: 10px 100px 20px 20px;
+    box-shadow: 0px 0px 110px 5px rgb(182, 41, 187);
+    border-radius: 800px 100px 800px;
+}
+#caja5{
+    margin: 10px 100px 20px 20px;
+    background: linear-gradient(black,blue);
+    border: 200px double rgb(255, 255, 255);
+}
+
+#caja6{
+    margin: 10px 100px 20px 20px;
+    box-shadow: 0px 0px 110px 5px rgb(49, 188, 212);
+    border-radius: 60px 900px 170px;
+}
+#caja7{
+    margin: 10px 100px 20px 20px;
+    box-shadow: 0px 0px 110px 5px rgb(255, 255, 255);
+    border-radius: 6000px 90px 2000px;
+}
+#caja8{
+    margin: 50px 50px 20px 20px;
+    background: darkmagenta;
+    border: 50px outset rgb(140, 0, 255);
+}
+#caja9{
+    margin: 10px 100px 20px 20px;
+    border: 30px solid transparent;
+    border-image: linear-gradient(45deg, red, black, blue) 1;
+
+}
+.caja10:hover {
+    margin: 10px 100px 20px 20px;
+    border: 50px solid transparent;
+    border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%) 1;
+
+    background-color: turquoise;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+.box {
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }

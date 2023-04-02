@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    div{
+      width: 100px;
+      height: 100px;
+      border: 2px solid yellow;
+      background: red;
+      margin: 10px;
+    }
+    
+    #color2 {
+      text-align: center;
+      background: black;
+      color: white;
+      border: 2px dashed darkviolet;
+    }
+    .color3{
+      text-align: center;
+      background: #FF0ABC;
+      color: #FFFFFF;
+    }
+    #color4 {
+      text-align: center;
+      background:rgb(10,100,255);
+      color: #FFFFFF;
+    }
+    #color5{
+      text-align: center;
+      background:rgb(0-255);
+      color: #FFFFFF;
+    }
+    #color6{
+      text-align: center;
+      background:rgb(30%, 10%, 30%);
+      color: #FFFFFF;
+    }
+    #color7{
+      text-align: center;
+      background:linear-gradient(red,yellow);
+    }
+    #color8{
+      text-align: center;
+      background:rgba(10,20,30,0.5);
+    }
+    #color9{
+      text-align: center;
+      background: linear-gradient(to right, red, yellow);
+    }
+    #color10{
+      text-align: center;
+      background: linear-gradient(180deg, red, orange, yellow, green, blue, indigo, violet);
+    }
+    body{
+      background: linear-gradient(violet, blue);
+    }
+    h1{
+      background: linear-gradient(orange, yellow);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
